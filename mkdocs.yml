@@ -61,4 +61,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/stepheniezzi/
 
+extra_css:
+  - extra.css
+
 copyright: Copyright &copy; 2024 Stephen Iezzi
