@@ -1,0 +1,64 @@
+site_name: Stephen Iezzi
+site_url: https://sitename.example
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.path
+    - toc.follow
+    - content.code.copy
+  font:
+    text: IBM Plex Sans
+    #text: Roboto Slab
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+nav:
+  - About: index.md
+  - Writing:
+    - index: blog/index.md
+  - Work With Me: work.md
+
+markdown_extensions:
+    - attr_list
+    - admonition
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.details
+    - pymdownx.superfences
+
+plugins:
+  - blog:
+      blog_toc: true
+      post_url_format: "{slug}"
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/_isteph_
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/stepheniezzi/
+
+copyright: Copyright &copy; 2024 Stephen Iezzi
