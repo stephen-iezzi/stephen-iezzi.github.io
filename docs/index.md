@@ -1,9 +1,9 @@
 # Hi there,
 
-I'm an independent consultant and machine learning research engineer. I write about how to improve AI systems, grounding AI solutions in business outcomes, and making AI accessible for businesses at any stage of their AI or automation journey.
+I’m an independent consultant who helps teams build reliable LLM workflows that turn unstructured documents and conversations into structured, usable outputs.
 
-In my work, I’ve applied these principles to real-world projects, hopefully some of my findings can help you.
+My work focuses on turning messy inputs into reliable structured information and workflow decisions, with evaluation built in so these systems are dependable enough for real business use.
 
-## Latest Articles
+I write about building AI systems that are grounded in data, evaluation, and practical workflow design. Much of that writing comes from a recurring pattern I’ve seen across projects: unstructured information only becomes useful when it can be turned into reliable outputs that fit into an actual business process.
 
-[Golden Rule of Building AI Products: Walk Before You Run](./blog/posts/golden_rule.md): Actionable steps you can take to improve your AI product
+I’ve applied these principles across real-world projects, and I share what I learn here for others building similar systems.
